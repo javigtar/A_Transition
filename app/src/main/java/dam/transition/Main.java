@@ -15,7 +15,8 @@ public class Main extends Activity {
         super.onCreate(savedInstanceState);
         ImageView image = new ImageView(this);
         setContentView(image);
-        TransitionDrawable transition = (TransitionDrawable) getResources().getDrawable(R.drawable.transicion);
+        TransitionDrawable transition = (TransitionDrawable)
+                getResources().getDrawable(R.drawable.transicion);
         image.setImageDrawable(transition);
         transition.startTransition(2000);
     }
