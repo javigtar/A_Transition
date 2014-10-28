@@ -10,6 +10,7 @@ import android.widget.ImageView;
 
 public class Main extends Activity {
 
+    //JAVIER GARCIA TARIN
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,7 +21,6 @@ public class Main extends Activity {
         image.setImageDrawable(transition);
         transition.startTransition(2000);
     }
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
